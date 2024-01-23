@@ -1,0 +1,751 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(revision 069b073311038a52cdf2de55c6cb29416e3f1396)
++++ b/.gitignore	(revision 069b073311038a52cdf2de55c6cb29416e3f1396)
+@@ -0,0 +1,29 @@
++### IntelliJ IDEA ###
++out/
++!**/src/main/**/out/
++!**/src/test/**/out/
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++bin/
++!**/src/main/**/bin/
++!**/src/test/**/bin/
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(revision d92eee2a32bf9b724a76e507081eed97b7292360)
++++ b/.idea/.gitignore	(revision d92eee2a32bf9b724a76e507081eed97b7292360)
+@@ -0,0 +1,170 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
++# Created by https://www.toptal.com/developers/gitignore/api/intellij,java,visualstudiocode
++# Edit at https://www.toptal.com/developers/gitignore?templates=intellij,java,visualstudiocode
++
++### Intellij ###
++# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
++# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
++
++# User-specific stuff
++.idea/**/workspace.xml
++.idea/**/tasks.xml
++.idea/**/usage.statistics.xml
++.idea/**/dictionaries
++.idea/**/shelf
++
++# AWS User-specific
++.idea/**/aws.xml
++
++# Generated files
++.idea/**/contentModel.xml
++
++# Sensitive or high-churn files
++.idea/**/dataSources/
++.idea/**/dataSources.ids
++.idea/**/dataSources.local.xml
++.idea/**/sqlDataSources.xml
++.idea/**/dynamic.xml
++.idea/**/uiDesigner.xml
++.idea/**/dbnavigator.xml
++
++# Gradle
++.idea/**/gradle.xml
++.idea/**/libraries
++
++# Gradle and Maven with auto-import
++# When using Gradle or Maven with auto-import, you should exclude module files,
++# since they will be recreated, and may cause churn.  Uncomment if using
++# auto-import.
++# .idea/artifacts
++# .idea/compiler.xml
++# .idea/jarRepositories.xml
++# .idea/modules.xml
++# .idea/*.iml
++# .idea/modules
++# *.iml
++# *.ipr
++
++# CMake
++cmake-build-*/
++
++# Mongo Explorer plugin
++.idea/**/mongoSettings.xml
++
++# File-based project format
++*.iws
++
++# IntelliJ
++out/
++
++# mpeltonen/sbt-idea plugin
++.idea_modules/
++
++# JIRA plugin
++atlassian-ide-plugin.xml
++
++# Cursive Clojure plugin
++.idea/replstate.xml
++
++# SonarLint plugin
++.idea/sonarlint/
++
++# Crashlytics plugin (for Android Studio and IntelliJ)
++com_crashlytics_export_strings.xml
++crashlytics.properties
++crashlytics-build.properties
++fabric.properties
++
++# Editor-based Rest Client
++.idea/httpRequests
++
++# Android studio 3.1+ serialized cache file
++.idea/caches/build_file_checksums.ser
++
++### Intellij Patch ###
++# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
++
++# *.iml
++# modules.xml
++# .idea/misc.xml
++# *.ipr
++
++# Sonarlint plugin
++# https://plugins.jetbrains.com/plugin/7973-sonarlint
++.idea/**/sonarlint/
++
++# SonarQube Plugin
++# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
++.idea/**/sonarIssues.xml
++
++# Markdown Navigator plugin
++# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
++.idea/**/markdown-navigator.xml
++.idea/**/markdown-navigator-enh.xml
++.idea/**/markdown-navigator/
++
++# Cache file creation bug
++# See https://youtrack.jetbrains.com/issue/JBR-2257
++.idea/$CACHE_FILE$
++
++# CodeStream plugin
++# https://plugins.jetbrains.com/plugin/12206-codestream
++.idea/codestream.xml
++
++# Azure Toolkit for IntelliJ plugin
++# https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
++.idea/**/azureSettings.xml
++
++### Java ###
++# Compiled class file
++*.class
++
++# Log file
++*.log
++
++# BlueJ files
++*.ctxt
++
++# Mobile Tools for Java (J2ME)
++.mtj.tmp/
++
++# Package Files #
++*.jar
++*.war
++*.nar
++*.ear
++*.zip
++*.tar.gz
++*.rar
++
++# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
++hs_err_pid*
++replay_pid*
++
++### VisualStudioCode ###
++.vscode/*
++!.vscode/settings.json
++!.vscode/tasks.json
++!.vscode/launch.json
++!.vscode/extensions.json
++!.vscode/*.code-snippets
++
++# Local History for Visual Studio Code
++.history/
++
++# Built Visual Studio Code Extensions
++*.vsix
++
++### VisualStudioCode Patch ###
++# Ignore all local history of files
++.history
++.ionide
++
++# End of https://www.toptal.com/developers/gitignore/api/intellij,java,visualstudiocode
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision 069b073311038a52cdf2de55c6cb29416e3f1396)
++++ b/.idea/misc.xml	(revision 069b073311038a52cdf2de55c6cb29416e3f1396)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="18" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++  <component name="SQLPlugin.ProjectConfiguration">
++    <queries />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(revision 069b073311038a52cdf2de55c6cb29416e3f1396)
++++ b/.idea/modules.xml	(revision 069b073311038a52cdf2de55c6cb29416e3f1396)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/desafio-Poo-dio.iml" filepath="$PROJECT_DIR$/desafio-Poo-dio.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision 069b073311038a52cdf2de55c6cb29416e3f1396)
++++ b/.idea/vcs.xml	(revision 069b073311038a52cdf2de55c6cb29416e3f1396)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: desafio-Poo-dio.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/desafio-Poo-dio.iml b/desafio-Poo-dio.iml
+new file mode 100644
+--- /dev/null	(revision 069b073311038a52cdf2de55c6cb29416e3f1396)
++++ b/desafio-Poo-dio.iml	(revision 069b073311038a52cdf2de55c6cb29416e3f1396)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(revision 231c21ca06fdf638af4c40673b17b8ae906128b9)
++++ b/.idea/uiDesigner.xml	(revision 231c21ca06fdf638af4c40673b17b8ae906128b9)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: src/br/com/dio/desafio/dominio/BootCamp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/br/com/dio/desafio/dominio/BootCamp.java b/src/br/com/dio/desafio/dominio/BootCamp.java
+new file mode 100644
+--- /dev/null	(revision 231c21ca06fdf638af4c40673b17b8ae906128b9)
++++ b/src/br/com/dio/desafio/dominio/BootCamp.java	(revision 231c21ca06fdf638af4c40673b17b8ae906128b9)
+@@ -0,0 +1,72 @@
++package br.com.dio.desafio.dominio;
++
++import java.time.LocalDate;
++import java.util.HashSet;
++import java.util.Objects;
++import java.util.Set;
++
++public class BootCamp {
++    private String nome;
++    private  String descricao;
++    private LocalDate dataInicio = LocalDate.now();
++    private final LocalDate datafinal = dataInicio.plusDays(45);
++    private Set<Dev> devsInscritos = new HashSet<>();
++    private Set<Conteudo> conteudo = new HashSet<>();
++
++    public String getNome() {
++        return nome;
++    }
++
++    public void setNome(String nome) {
++        this.nome = nome;
++    }
++
++    public String getDescricao() {
++        return descricao;
++    }
++
++    public void setDescricao(String descricao) {
++        this.descricao = descricao;
++    }
++
++    public LocalDate getDataInicio() {
++        return dataInicio;
++    }
++
++    public void setDataInicio(LocalDate dataInicio) {
++        this.dataInicio = dataInicio;
++    }
++
++    public LocalDate getDatafinal() {
++        return datafinal;
++    }
++
++    public Set<Dev> getDevsInscritos() {
++        return devsInscritos;
++    }
++
++    public void setDevsInscritos(Set<Dev> devsInscritos) {
++        this.devsInscritos = devsInscritos;
++    }
++
++    public Set<Conteudo> getConteudo() {
++        return conteudo;
++    }
++
++    public void setConteudo(Set<Conteudo> conteudo) {
++        this.conteudo = conteudo;
++    }
++
++    @Override
++    public boolean equals(Object o) {
++        if (this == o) return true;
++        if (o == null || getClass() != o.getClass()) return false;
++        BootCamp bootCamp = (BootCamp) o;
++        return Objects.equals(nome, bootCamp.nome) && Objects.equals(descricao, bootCamp.descricao) && Objects.equals(dataInicio, bootCamp.dataInicio) && Objects.equals(datafinal, bootCamp.datafinal) && Objects.equals(devsInscritos, bootCamp.devsInscritos) && Objects.equals(conteudo, bootCamp.conteudo);
++    }
++
++    @Override
++    public int hashCode() {
++        return Objects.hash(nome, descricao, dataInicio, datafinal, devsInscritos, conteudo);
++    }
++}
+Index: src/br/com/dio/desafio/dominio/Conteudo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/br/com/dio/desafio/dominio/Conteudo.java b/src/br/com/dio/desafio/dominio/Conteudo.java
+new file mode 100644
+--- /dev/null	(revision 231c21ca06fdf638af4c40673b17b8ae906128b9)
++++ b/src/br/com/dio/desafio/dominio/Conteudo.java	(revision 231c21ca06fdf638af4c40673b17b8ae906128b9)
+@@ -0,0 +1,28 @@
++package br.com.dio.desafio.dominio;
++
++public abstract class Conteudo {
++
++    protected static final double xp_padrao = 10;
++
++    private String titulo;
++    private String descricao;
++
++    public abstract double calcularXP();
++
++    public String getTitulo() {
++        return titulo;
++    }
++
++    public void setTitulo(String titulo) {
++        this.titulo = titulo;
++    }
++
++    public String getDescricao() {
++        return descricao;
++    }
++
++    public void setDescricao(String descricao) {
++        this.descricao = descricao;
++    }
++
++}
+Index: src/br/com/dio/desafio/dominio/Curso.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/br/com/dio/desafio/dominio/Curso.java b/src/br/com/dio/desafio/dominio/Curso.java
+new file mode 100644
+--- /dev/null	(revision 231c21ca06fdf638af4c40673b17b8ae906128b9)
++++ b/src/br/com/dio/desafio/dominio/Curso.java	(revision 231c21ca06fdf638af4c40673b17b8ae906128b9)
+@@ -0,0 +1,28 @@
++package br.com.dio.desafio.dominio;
++
++public class Curso extends Conteudo {
++    private int cargaHoraria;
++
++
++    @Override
++    public double calcularXP() {
++        return xp_padrao*cargaHoraria;
++    }
++
++    public int getCargaHoraria() {
++        return cargaHoraria;
++    }
++
++    public void setCargaHoraria(int cargaHoraria) {
++        this.cargaHoraria = cargaHoraria;
++    }
++
++    @Override
++    public String toString() {
++        return "Curso{" +
++                "titulo='" + getTitulo() + '\'' +
++                ", descricao='" + getDescricao() + '\'' +
++                ", cargaHoraria=" + cargaHoraria +
++                '}';
++    }
++}
+Index: src/br/com/dio/desafio/dominio/Dev.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/br/com/dio/desafio/dominio/Dev.java b/src/br/com/dio/desafio/dominio/Dev.java
+new file mode 100644
+--- /dev/null	(revision 231c21ca06fdf638af4c40673b17b8ae906128b9)
++++ b/src/br/com/dio/desafio/dominio/Dev.java	(revision 231c21ca06fdf638af4c40673b17b8ae906128b9)
+@@ -0,0 +1,66 @@
++package br.com.dio.desafio.dominio;
++
++import java.util.HashSet;
++import java.util.Objects;
++import java.util.Optional;
++import java.util.Set;
++
++public class Dev {
++    private String nome;
++    private Set<Conteudo> conteudosInscritos = new HashSet<>();
++    private Set<Conteudo> conteudosConcluidos = new HashSet<>();
++
++    public void inscreverBootCamp(BootCamp bootCamp){
++        this.conteudosInscritos.addAll(bootCamp.getConteudo());
++        bootCamp.getDevsInscritos().add(this);
++    }
++    public void progredindo(){
++        Optional<Conteudo> conteudo = this.conteudosInscritos.stream().findFirst();
++        if (conteudo.isPresent()){
++            this.conteudosConcluidos.add(conteudo.get());
++            this.conteudosInscritos.remove(conteudo.get());
++        } else {
++            System.err.println("Voce não está incrito no conteudo");
++        }
++    }
++    public double calcularXP(){
++        return this.conteudosConcluidos.stream().mapToDouble(conteudo -> conteudo.calcularXP()).sum();
++    }
++
++    public String getNome() {
++        return nome;
++    }
++
++    public void setNome(String nome) {
++        this.nome = nome;
++    }
++
++    public Set<Conteudo> getConteudosInscritos() {
++        return conteudosInscritos;
++    }
++
++    public void setConteudosInscritos(Set<Conteudo> conteudosInscritos) {
++        this.conteudosInscritos = conteudosInscritos;
++    }
++
++    public Set<Conteudo> getConteudosConcluidos() {
++        return conteudosConcluidos;
++    }
++
++    public void setConteudosConcluidos(Set<Conteudo> conteudosConcluidos) {
++        this.conteudosConcluidos = conteudosConcluidos;
++    }
++
++    @Override
++    public boolean equals(Object o) {
++        if (this == o) return true;
++        if (o == null || getClass() != o.getClass()) return false;
++        Dev dev = (Dev) o;
++        return Objects.equals(nome, dev.nome) && Objects.equals(conteudosInscritos, dev.conteudosInscritos) && Objects.equals(conteudosConcluidos, dev.conteudosConcluidos);
++    }
++
++    @Override
++    public int hashCode() {
++        return Objects.hash(nome, conteudosInscritos, conteudosConcluidos);
++    }
++}
+Index: src/br/com/dio/desafio/dominio/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/br/com/dio/desafio/dominio/Main.java b/src/br/com/dio/desafio/dominio/Main.java
+new file mode 100644
+--- /dev/null	(revision 231c21ca06fdf638af4c40673b17b8ae906128b9)
++++ b/src/br/com/dio/desafio/dominio/Main.java	(revision 231c21ca06fdf638af4c40673b17b8ae906128b9)
+@@ -0,0 +1,32 @@
++package br.com.dio.desafio.dominio;
++
++import java.time.LocalDate;
++
++public class Main {
++    public static void main(String[] args) {
++
++        Curso curso1 = new Curso();
++        curso1.setTitulo("curso java");
++        curso1.setDescricao("Descricao curso java");
++        curso1.setCargaHoraria(8);
++
++        Curso curso2 = new Curso();
++        curso2.setTitulo("curso java");
++        curso2.setDescricao("Descricao curso java");
++        curso2.setCargaHoraria(8);
++
++        Conteudo conteudo = new Curso();
++
++
++        Mentoria mentoria1 = new Mentoria();
++        mentoria1.setTitulo("123");
++        mentoria1.setDescricao("Descricao mentoria");
++        mentoria1.setDate(LocalDate.now());
++
++        System.out.println(curso1);
++        System.out.println(curso2);
++        System.out.println(mentoria1);
++
++        
++    }
++}
+\ No newline at end of file
+Index: src/br/com/dio/desafio/dominio/Mentoria.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/br/com/dio/desafio/dominio/Mentoria.java b/src/br/com/dio/desafio/dominio/Mentoria.java
+new file mode 100644
+--- /dev/null	(revision 231c21ca06fdf638af4c40673b17b8ae906128b9)
++++ b/src/br/com/dio/desafio/dominio/Mentoria.java	(revision 231c21ca06fdf638af4c40673b17b8ae906128b9)
+@@ -0,0 +1,30 @@
++package br.com.dio.desafio.dominio;
++
++import java.time.LocalDate;
++
++public class Mentoria extends Conteudo {
++    
++    private LocalDate date;
++
++    public double calcularXP(){
++        return xp_padrao+20;
++    }
++
++    public LocalDate getDate() {
++        return date;
++    }
++
++    public void setDate(LocalDate date) {
++        this.date = date;
++    }
++
++    @Override
++    public String toString() {
++        return "Curso{" +
++                "titulo='" + getTitulo() + '\'' +
++                ", descricao='" + getDescricao() + '\'' +
++                ", cargaHoraria=" + date +
++                '}';
++    }
++    
++}
