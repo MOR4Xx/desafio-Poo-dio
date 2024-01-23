@@ -39,6 +39,8 @@ public class Main {
         devJorge.inscreverBootCamp(objBootCamp);
         System.out.println("Conteudo Incrito Jorge: "+ devJorge.getConteudosInscritos());
         devJorge.progredindo();
+        devJorge.progredindo();
+        devJorge.progredindo();
         System.out.println("-");
         System.out.println("Conteudo Incrito Jorge: "+ devJorge.getConteudosInscritos());
         System.out.println("Conteudo cONCLUIDO Jorge: "+ devJorge.getConteudosConcluidos());
