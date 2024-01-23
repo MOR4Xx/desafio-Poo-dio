@@ -34,6 +34,7 @@ public class Main {
         objBootCamp.getConteudo().add(curso2);
         objBootCamp.getConteudo().add(mentoria1);
 
+        System.out.println("Infos:");
         Dev devJorge = new Dev();
         devJorge.setNome("Jorge");
         devJorge.inscreverBootCamp(objBootCamp);
